@@ -1,0 +1,20 @@
+PROTO sphere [
+  field SFVec3f    translation  0 0 0
+]
+{
+  Solid {
+    translation IS translation
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Sphere {
+        radius 0.06
+      }
+    }
+  ]
+  boundingObject Sphere {
+    radius 0.06
+  }
+}
+}

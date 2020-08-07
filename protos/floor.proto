@@ -1,0 +1,10 @@
+PROTO floor [
+  field SFVec2f    size  2 2
+]
+{
+  Floor {
+  size IS size
+  
+
+}
+}
